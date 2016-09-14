@@ -15,6 +15,7 @@ highlight Cursor guifg=pink guibg=black
 highlight iCursor guifg=pink guibg=steelblue
 
 " vim-pathogen
+" if pathogen not installed, install: https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
 
