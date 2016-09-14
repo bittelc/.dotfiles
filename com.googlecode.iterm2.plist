@@ -99,9 +99,9 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Dropbox/Computer Preferences/iTerm</string>
+	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 459}</string>
+	<string>{868, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -131,8 +131,10 @@
 	<string>-2287 744 728 297 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 300 620 392 0 0 1280 777 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>-2291 666 606 456 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-2336 1116 918 495 -2560 527 2560 1417 </string>
+	<string>-2336 1116 796 473 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>-1280 587 1273 1357 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -1658,7 +1660,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/cole.bittel/Dropbox/Computer Preferences/iTerm</string>
+	<string>/Users/cole.bittel/.dotfiles/</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1678,7 +1680,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-09-12T21:38:02Z</date>
+	<date>2016-09-14T15:35:10Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
