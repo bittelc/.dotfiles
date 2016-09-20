@@ -1,5 +1,5 @@
-syntax on
 filetype plugin indent on
+syntax on
 
 
 filetype plugin indent on               " Make default tab size 2 spaces
@@ -27,3 +27,5 @@ set number                              " show line numbers
 set relativenumber                      " instead of absolute line number
 set showcmd                             " show keymaps as I type
 set smartcase                           " use with ignorecase
+set scrolloff=999                       " lock cursor to middle of screen, vertically
+set laststatus=2                        " always show statusline in vim display
