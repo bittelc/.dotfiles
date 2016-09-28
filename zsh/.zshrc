@@ -17,4 +17,6 @@ alias 'll=ls -lah'
 
 # Figure out how to make this check for rbenv first, then only apply if rbenv present
 # Don't upload to Github until this `if` is complete
-eval "$(rbenv init -)"
+if hash rbenv 2>/dev/null; then
+  eval "$(rbenv init -)"
+fi
