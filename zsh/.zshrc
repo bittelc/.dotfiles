@@ -14,3 +14,7 @@ fi
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 alias 'll=ls -lah'
+
+# Figure out how to make this check for rbenv first, then only apply if rbenv present
+# Don't upload to Github until this `if` is complete
+eval "$(rbenv init -)"
