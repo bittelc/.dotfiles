@@ -1,4 +1,4 @@
-#
+
 # Executes commands at the start of an interactive session.
 #
 # Authors:
@@ -20,3 +20,10 @@ alias 'll=ls -lah'
 if hash rbenv 2>/dev/null; then
   eval "$(rbenv init -)"
 fi
+
+# Use VI-type key bindings, rather than the default emacs
+# Can switchback to emacs with `bindkey -e`
+set editing-mode vi
+
+# Blinking parenthesis
+set blink-matching-paren on
