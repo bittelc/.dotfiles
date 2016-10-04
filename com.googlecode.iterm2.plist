@@ -95,10 +95,12 @@
 	<string>-1280 560 1280 1250 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>419 239 735 382 0 0 1280 777 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>0 155 700 622 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>290 253 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 48 1274 729 0 0 1280 777 </string>
+	<string>-2560 531 2554 1413 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-2311 1111 890 577 -2560 527 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -510,7 +512,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>DC3330C8-8E9A-48EB-8667-E9CE752A835C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>497056658.09790999</real>
+	<real>497293859.94017798</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -522,6 +524,8 @@
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -567,7 +571,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-01T23:17:37Z</date>
+	<date>2016-10-04T17:09:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
@@ -575,7 +579,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.0.9</string>
+	<string>3.0.10</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
