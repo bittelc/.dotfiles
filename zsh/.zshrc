@@ -24,5 +24,3 @@ fi
 # Use VI-type key bindings, rather than the default emacs
 # Can switchback to emacs with `bindkey -e`
 bindkey -v
-# Blinking parenthesis
-set blink-matching-paren on

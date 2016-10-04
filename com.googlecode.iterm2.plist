@@ -60,7 +60,7 @@
 	<key>NSNavLastRootDirectory</key>
 	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -93,10 +93,12 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-1280 560 1280 1250 -2560 527 2560 1417 </string>
+	<key>NSWindow Frame ProfilesPanel</key>
+	<string>419 239 735 382 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>290 253 937 465 0 0 1280 777 </string>
+	<string>290 253 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-2560 550 1274 1392 -2560 527 2560 1417 </string>
+	<string>0 48 1274 729 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>-2311 1111 890 577 -2560 527 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -321,12 +323,16 @@
 			<real>0.10000000000000001</real>
 			<key>Bold Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.99197715520858765</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.99196028709411621</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.99198997020721436</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -347,12 +353,29 @@
 				<key>Red Component</key>
 				<real>0.73333334922790527</real>
 			</dict>
+			<key>Cursor Guide Color</key>
+			<dict>
+				<key>Alpha Component</key>
+				<real>0.25</real>
+				<key>Blue Component</key>
+				<real>0.82304894924163818</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
+				<key>Green Component</key>
+				<real>0.74348831176757812</real>
+				<key>Red Component</key>
+				<real>0.51344043016433716</real>
+			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.99999129772186279</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.99997437000274658</real>
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
@@ -448,6 +471,8 @@
 			<string></string>
 			<key>Silence Bell</key>
 			<false/>
+			<key>Smart Cursor Color</key>
+			<false/>
 			<key>Space</key>
 			<integer>-1</integer>
 			<key>Sync Title</key>
@@ -484,8 +509,20 @@
 	</array>
 	<key>NoSyncInstallationId</key>
 	<string>DC3330C8-8E9A-48EB-8667-E9CE752A835C</string>
+	<key>NoSyncLastTipTime</key>
+	<real>497056658.09790999</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>496874539.83039999</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+	</array>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -530,7 +567,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-09-30T22:31:20Z</date>
+	<date>2016-10-01T23:17:37Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
