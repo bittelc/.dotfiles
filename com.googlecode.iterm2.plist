@@ -92,17 +92,13 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>-1280 560 1280 1250 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>419 239 735 382 0 0 1280 777 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>0 155 700 622 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>290 253 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-2560 531 2554 1413 -2560 527 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-2311 1111 890 577 -2560 527 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
