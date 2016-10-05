@@ -508,7 +508,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>DC3330C8-8E9A-48EB-8667-E9CE752A835C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>497293859.94017798</real>
+	<real>497380262.99851</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -522,6 +522,7 @@
 		<string>000</string>
 		<string>0000</string>
 		<string>0001</string>
+		<string>0002</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
