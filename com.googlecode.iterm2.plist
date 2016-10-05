@@ -93,7 +93,6 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<key>NSWindow Frame ProfilesPanel</key>
-	<string>419 239 735 382 0 0 1280 777 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>0 155 700 622 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
@@ -568,11 +567,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-04T17:09:44Z</date>
+	<date>2016-10-05T17:43:26Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
 	<true/>
+	<key>TabViewType</key>
+	<integer>1</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
