@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias 'll=ls -lah'
+
+## Source rbenv if present
+if hash rbenv 2>/dev/null; then
+  eval "$(rbenv init -)"
+fi
