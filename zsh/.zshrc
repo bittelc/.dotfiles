@@ -1,1 +1,1 @@
-/Users/ColeBittel/.dotfiles/zsh/.zprezto/runcoms/zshrc
+.zprezto/runcoms/zshrc
