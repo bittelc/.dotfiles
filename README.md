@@ -18,4 +18,6 @@ Provide quick and easy startup process for getting preferences onto new machine.
   * Perhaps invalid commands should also appear a bad color
   * Eg. typing `vim `, would show `vim` word as nice pink or something
   * Eg. typing `vimmmm ` would show `vimmm` as nasty red
+4. Make VM capabilities in `.zshenv` not so ugly
+  * Eg. currently dependent upon `/host-data`, but what if VM doesn't use `/host-data`
 
