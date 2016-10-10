@@ -5761,10 +5761,8 @@
 	<false/>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
-	<key>NSFontPanelPreviewHeight</key>
-	<real>100</real>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents</string>
+	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -5786,7 +5784,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>307</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -5798,19 +5796,14 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>0 89 1440 654 0 0 1440 877 </string>
-	<key>NSWindow Frame Preferences</key>
-	<string>200 224 605 485 0 0 1440 877 </string>
+	<key>NSWindow Frame ProfilesPanel</key>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 378 620 392 0 0 1440 877 </string>
+	<string>0 155 700 622 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>454 291 796 473 0 0 1440 877 </string>
+	<string>219 249 918 498 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 878 0 0 1440 877 </string>
+	<string>0 273 1090 504 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>183 104 665 502 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>204 489 585 326 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -6380,7 +6373,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>0</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>20000</integer>
 			<key>Scrollback With Status Bar</key>
@@ -6551,27 +6544,33 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/nicksp/Documents/Projects</string>
 		</dict>
 	</array>
 	<key>NoSyncInstallationId</key>
-	<string>1B7EB580-3820-43E3-9114-88CF2DFD37D9</string>
-	<key>NoSyncNeverRemindPrefsChangesCopy</key>
-	<true/>
+	<string>DC3330C8-8E9A-48EB-8667-E9CE752A835C</string>
+	<key>NoSyncLastTipTime</key>
+	<real>497806184.57336998</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
-	<false/>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>491636698.00169998</real>
-	<key>NoSyncTimeOfLastPromo</key>
-	<real>465588199.17125201</real>
-	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>485547675.069713</real>
+	<real>496874539.83039999</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -6620,7 +6619,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/ColeBittel/.dotfiles/iTerm</string>
+	<string>/Users/cole.bittel/.dotfiles/iTerm</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -6634,11 +6633,13 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=90</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=81</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-09T21:12:15Z</date>
+	<date>2016-10-10T15:29:44Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
