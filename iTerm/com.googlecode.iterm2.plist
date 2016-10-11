@@ -5800,9 +5800,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>0 155 700 622 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>219 249 918 498 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 273 1090 504 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<key>New Bookmarks</key>
 	<array>
@@ -6349,7 +6347,7 @@
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
-			<real>0.173828125</real>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -6546,13 +6544,13 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/nicksp/Documents/Projects</string>
+			<string></string>
 		</dict>
 	</array>
 	<key>NoSyncInstallationId</key>
 	<string>DC3330C8-8E9A-48EB-8667-E9CE752A835C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>497806184.57336998</real>
+	<real>497893953.41966701</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -6570,6 +6568,7 @@
 		<string>0003</string>
 		<string>0004</string>
 		<string>0005</string>
+		<string>0006</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -6637,7 +6636,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-10T15:29:44Z</date>
+	<date>2016-10-11T22:02:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
