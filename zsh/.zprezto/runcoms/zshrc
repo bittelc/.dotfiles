@@ -23,3 +23,9 @@ fi
 function chpwd() {
   ll
 }
+
+## INCOMPLETE
+## Source .bashrc if present
+if [[ -s "$HOME/.bashrc" ]]; then
+  source "$HOME/.bashrc"
+fi
