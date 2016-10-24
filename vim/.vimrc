@@ -29,6 +29,9 @@ set showcmd                             " show keymaps as I type
 set smartcase                           " use with ignorecase
 set scrolloff=999                       " lock cursor to middle of screen, vertically
 set laststatus=2                        " always show statusline in vim display
+set showmatch                           " show matching parenthesis
+set incsearch                           " search as characters are entered
+set hlsearch                            " highlight matchesk
 
 " Send more characters for redraws
 set ttyfast
@@ -39,3 +42,9 @@ set mouse=r
 " Set this to the name of your terminal that supports mouse codes.
 " Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
 set ttymouse=xterm2
+
+" Set `jk` to replace ESC key
+inoremap jk <esc>
+
+" Set cntrl+C to close a split screen window, but not close the split screen
+nnoremap <C-c> :bp\|bd #<CR>
