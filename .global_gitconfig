@@ -1,0 +1,10 @@
+# Symlink this to home dir in order to work effectively
+## ln -s ~/.dotfiles/.global_gitconfig ~/.gitconfig
+
+[push]
+	default = simple          # Only push if local and remote names match
+	default = current         # Only push current branch
+
+[user]
+	name = Cole Bittel
+	email = cole.bittel@gmail.com
