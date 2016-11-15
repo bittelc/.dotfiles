@@ -48,3 +48,11 @@ inoremap jk <esc>
 
 " Set cntrl+C to close a split screen window, but not close the split screen
 nnoremap <C-c> :bp\|bd #<CR>
+
+" `Enter` key adds new line, without entering insert mode
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
+" Open all new split panes in right / below current pane
+set splitbelow
+set splitright
