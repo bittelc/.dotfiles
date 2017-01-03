@@ -5762,7 +5762,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~</string>
+	<string>~/.dotfiles/iTerm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -5798,9 +5798,12 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>0 155 700 622 0 0 1280 777 </string>
+	<string>290 128 700 622 0 0 1280 777 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
 	<key>NSWindow Frame SharedPreferences</key>
+	<string>484 124 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
+	<string>131 73 1090 527 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<key>New Bookmarks</key>
 	<array>
@@ -6549,10 +6552,12 @@
 			<string></string>
 		</dict>
 	</array>
+	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
+	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>DC3330C8-8E9A-48EB-8667-E9CE752A835C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>498067832.11380202</real>
+	<real>505158367.96064001</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -6573,6 +6578,60 @@
 		<string>0006</string>
 		<string>0007</string>
 		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -6640,7 +6699,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-10-13T16:10:31Z</date>
+	<date>2017-01-03T17:46:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -6692,7 +6751,7 @@
 	<key>WordCharacters</key>
 	<string></string>
 	<key>iTerm Version</key>
-	<string>3.0.10</string>
+	<string>3.0.13</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
