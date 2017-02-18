@@ -5810,7 +5810,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 378 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>454 291 796 473 0 0 1440 877 </string>
+	<string>454 266 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1440 878 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -6557,7 +6557,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string></string>
 		</dict>
