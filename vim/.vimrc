@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 
 filetype plugin indent on               " Make default tab size 2 spaces
 set tabstop=2
@@ -14,6 +14,10 @@ highlight iCursor guifg=pink guibg=steelblue
 " vim-pathogen
 " if pathogen not installed, install: https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
+
+" Set color scheme
+colorscheme solarized
+
 
 
 set cursorcolumn                        " highlight current column
