@@ -52,3 +52,14 @@ nmap <CR> o<Esc>
 " Open all new split panes in right / below current pane
 set splitbelow
 set splitright
+
+"""""""""""""""
+" GoLang settings via vim-go package (in pathogen)
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_build_constraints = 1
+"""""""""""""""
