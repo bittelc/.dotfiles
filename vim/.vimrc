@@ -68,5 +68,11 @@ let g:go_highlight_structs = 1
 let g:go_highlight_build_constraints = 1
 """""""""""""""
 
-"""Enable autocomplete via `neocomplete`
+"Enable autocomplete via `neocomplete`
 let g:neocomplete#enable_at_startup = 1
+
+"Allows you use F8 to enable/disable the tagbar feature
+nmap <F8> :TagbarToggle<CR>
+
+"Allow press <Ctrl+n> to enable/disable this NERDTreeToggle
+map <C-n> :NERDTreeToggle<CR>
