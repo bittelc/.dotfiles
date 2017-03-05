@@ -13,7 +13,7 @@ highlight iCursor guifg=pink guibg=steelblue
 
 " vim-pathogen
 " if pathogen not installed, install: https://github.com/tpope/vim-pathogen
-execute pathogen#infect()
+execute pathogen#infect('bundle/{}', '~/.dotfiles/vim/bundle/{}')
 
 " Set color scheme
 colorscheme solarized
