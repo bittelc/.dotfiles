@@ -18,8 +18,6 @@ execute pathogen#infect('bundle/{}', '~/.dotfiles/vim/bundle/{}')
 " Set color scheme
 colorscheme solarized
 
-
-
 set cursorcolumn                        " highlight current column
 set cursorline                          " highlight current line
 set ignorecase                          " case-insensitive search
@@ -76,3 +74,4 @@ nmap <F8> :TagbarToggle<CR>
 
 "Allow press <Ctrl+n> to enable/disable this NERDTreeToggle
 map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
