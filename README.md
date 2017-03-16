@@ -15,7 +15,7 @@ First, clone this repo into `$HOME` directory
 3. Vim
     1. Download and install [`vim-pathogen`](https://github.com/tpope/vim-pathogen)
     2. `ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc`
-    3. Symlink bundles to Pathogen directory: `ln -s ~/.dotfiles/vim/bundle ~/.vim/bundle`
+    3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
     4. Init all submodules in this repo: `git submodule update --init --recursive`
     5. Update all submodules in this repo: `git submodule update --recursive --remote`
 
