@@ -30,12 +30,8 @@ set laststatus=2                        " always show statusline in vim display
 set showmatch                           " show matching parenthesis
 set incsearch                           " search as characters are entered
 set hlsearch                            " highlight matchesk
-
-" Send more characters for redraws
-set ttyfast
-
-" Enable mouse use in all modes
-set mouse=r
+set ttyfast                             " Send more characters for redraws
+set mouse=r                             " Enable mouse use in all modes
 
 " Set this to the name of your terminal that supports mouse codes.
 " Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
