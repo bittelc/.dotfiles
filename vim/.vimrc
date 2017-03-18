@@ -5,7 +5,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-set list lcs=trail:·            " Show any trailing spaces after line
 
 " vim-pathogen
 " if pathogen not installed, install: https://github.com/tpope/vim-pathogen
@@ -17,8 +16,8 @@ colorscheme solarized
 set cursorcolumn                        " highlight current column
 set cursorline                          " highlight current line
 set ignorecase                          " case-insensitive search
-set list                                " show whitespace
 set number                              " show line numbers
+set list lcs=trail:·,tab:\ \            " Show any trailing spaces after line
 set showcmd                             " show keymaps as I type
 set smartcase                           " use with ignorecase
 set scrolloff=999                       " lock cursor to middle of screen, vertically
