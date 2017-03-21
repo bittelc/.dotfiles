@@ -8,10 +8,14 @@ First, clone this repo into `$HOME` directory
 
 1. To get zsh profile working correctly (dependent on hardcoded ".dotfiles" directory; install zsh; symlink .zshenv;)
 2. To get iTerm preferences working correctly (iTerm preferences => load preferences from hardcoded `.dotfiles/` directory)
+3. Git
+    1. `ln -s ~/.dotfiles/git/.global_gitconfig ~/.gitconfig`
+    2. `ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global`
+
 3. Vim
     1. Download and install [`vim-pathogen`](https://github.com/tpope/vim-pathogen)
     2. `ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc`
-    3. Symlink bundles to Pathogen directory: `ln -s ~/.dotfiles/vim/bundle ~/.vim/bundle`
+    3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
     4. Init all submodules in this repo: `git submodule update --init --recursive`
     5. Update all submodules in this repo: `git submodule update --recursive --remote`
 
@@ -27,7 +31,6 @@ To add a plugin to VIM (via Pathogen):
 
 ## Known ToDo's
 1. Provide better [startup](#startup) instructions
-    * Create necessary symlinks
     * Download iTerm, zsh, BetterTouchTool
 2. Make VM capabilities in `.zshenv` not so ugly
     * Eg. currently dependent upon `/host-data`, but what if VM doesn't use `/host-data`

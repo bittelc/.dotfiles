@@ -5,11 +5,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-set list lcs=trail:·,tab:··            " Show any trailing spaces after line
-
-" Set cursor color
-highlight Cursor guifg=pink guibg=black
-highlight iCursor guifg=pink guibg=steelblue
 
 " vim-pathogen
 " if pathogen not installed, install: https://github.com/tpope/vim-pathogen
@@ -21,8 +16,8 @@ colorscheme solarized
 set cursorcolumn                        " highlight current column
 set cursorline                          " highlight current line
 set ignorecase                          " case-insensitive search
-set list                                " show whitespace
 set number                              " show line numbers
+set list lcs=trail:·,tab:\ \            " Show any trailing spaces after line
 set showcmd                             " show keymaps as I type
 set smartcase                           " use with ignorecase
 set scrolloff=999                       " lock cursor to middle of screen, vertically
@@ -30,12 +25,8 @@ set laststatus=2                        " always show statusline in vim display
 set showmatch                           " show matching parenthesis
 set incsearch                           " search as characters are entered
 set hlsearch                            " highlight matchesk
-
-" Send more characters for redraws
-set ttyfast
-
-" Enable mouse use in all modes
-set mouse=r
+set ttyfast                             " Send more characters for redraws
+set mouse=r                             " Enable mouse use in all modes
 
 " Set this to the name of your terminal that supports mouse codes.
 " Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
@@ -48,7 +39,6 @@ inoremap jk <esc>
 nnoremap <C-c> :bp\|bd #<CR>
 
 " `Enter` key adds new line, without entering insert mode
-nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
 " Open all new split panes in right / below current pane
@@ -64,6 +54,7 @@ let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_build_constraints = 1
+let g:go_fmt_fail_silently = 1 " Dont show wonky gofmt error upon exiting
 """""""""""""""
 
 "Enable autocomplete via `neocomplete`
