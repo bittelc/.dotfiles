@@ -21,7 +21,7 @@ if [[ -s "$HOME/.bashrc" ]]; then
 fi
 
 
-if [[ -s "/usr/local/go/" ]]; then
+if [[ -s "/usr/local/go/" ]] || [[ -s "/usr/local/bin/go/" ]]; then
   export GOPATH=$HOME/.go
   export PATH=$PATH:$GOPATH/bin
 fi
