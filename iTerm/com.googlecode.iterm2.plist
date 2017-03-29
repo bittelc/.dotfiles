@@ -5804,9 +5804,12 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>290 128 700 622 0 0 1280 777 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<key>NSWindow Frame SharedPreferences</key>
+	<string>452 232 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
+	<string>0 50 1279 727 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<key>New Bookmarks</key>
 	<array>
@@ -5967,12 +5970,16 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.15170273184776306</real>
+				<real>0.99999129772186279</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.11783610284328461</real>
+				<real>0.99997437000274658</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>1</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -7525,7 +7532,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-22T16:59:21Z</date>
+	<date>2017-03-29T16:23:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -7576,8 +7583,12 @@
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string></string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.14</string>
+	<string>3.0.15</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
