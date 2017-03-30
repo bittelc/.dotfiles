@@ -66,3 +66,7 @@ nmap <F8> :TagbarToggle<CR>
 "Allow press <Ctrl+n> to enable/disable this NERDTreeToggle
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Open a file with cursor position at point of last close
+" :help last-position-jump for more details
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
