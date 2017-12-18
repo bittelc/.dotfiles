@@ -4,9 +4,11 @@ Provide quick and easy startup process for getting preferences onto new machine.
 
 ## Startup
 
-First, clone this repo into `$HOME` directory
-
+1. Clone this repo into `$HOME` directory
+    * `git clone git@github.com:bittelc/.dotfiles.git ~/`
 1. To get zsh profile working correctly (dependent on hardcoded ".dotfiles" directory; install zsh; symlink .zshenv;)
+    1. Install zsh
+    1. `ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv`
 2. To get iTerm preferences working correctly (iTerm preferences => load preferences from hardcoded `.dotfiles/` directory)
 3. Git
     1. `ln -s ~/.dotfiles/git/.global_gitconfig ~/.gitconfig`
@@ -32,5 +34,4 @@ To add a plugin to VIM (via Pathogen):
 ## Known ToDo's
 1. Provide better [startup](#startup) instructions
     * Download iTerm, zsh, BetterTouchTool
-2. 
 
