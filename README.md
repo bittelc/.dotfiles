@@ -9,6 +9,10 @@ Provide quick and easy startup process for getting preferences onto new machine.
 1. To get zsh profile working correctly (dependent on hardcoded ".dotfiles" directory; install zsh; symlink .zshenv;)
     1. Install zsh
     1. `ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv`
+    1. Install [Powerline fonts](https://github.com/powerline/fonts)
+    1. Modify iTerm profile to use Powerline fonts
+         1. Preferences => Profiles => Text
+         1. Font and Non-ASCII Font should be modified to use "14pt Meslo LG S DZ Regular for Powerline"
 2. To get iTerm preferences working correctly (iTerm preferences => load preferences from hardcoded `.dotfiles/` directory)
 3. Git
     1. `ln -s ~/.dotfiles/git/.global_gitconfig ~/.gitconfig`
