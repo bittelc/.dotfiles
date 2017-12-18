@@ -25,6 +25,10 @@ Provide quick and easy startup process for getting preferences onto new machine.
     3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
     4. Init all submodules in this repo: `.dotfiles$ git submodule update --init --recursive`
     5. Update all submodules in this repo: `.dotfiles$ git submodule update --recursive --remote`
+1. Setup all your other good shit
+   1. [Gregory Colbert screensaver](https://gregorycolbert.com/screensaver.php)
+   1. BetterTouchTool
+   1. 1Password
 
 
 ## Adding Vim Plugins
