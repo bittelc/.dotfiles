@@ -19,7 +19,8 @@ Provide quick and easy startup process for getting preferences onto new machine.
     2. `ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global`
 
 3. Vim
-    1. Download and install [`vim-pathogen`](https://github.com/tpope/vim-pathogen)
+   1. [Update Vim to 8.0+](https://stackoverflow.com/questions/39861793/how-update-vim-to-8-0-version-in-osx)
+   1. Download and install [`vim-pathogen`](https://github.com/tpope/vim-pathogen)
     2. `ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc`
     3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
     4. Init all submodules in this repo: `.dotfiles$ git submodule update --init --recursive`
