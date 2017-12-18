@@ -16,8 +16,8 @@ First, clone this repo into `$HOME` directory
     1. Download and install [`vim-pathogen`](https://github.com/tpope/vim-pathogen)
     2. `ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc`
     3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
-    4. Init all submodules in this repo: `git submodule update --init --recursive`
-    5. Update all submodules in this repo: `git submodule update --recursive --remote`
+    4. Init all submodules in this repo: `.dotfiles$ git submodule update --init --recursive`
+    5. Update all submodules in this repo: `.dotfiles$ git submodule update --recursive --remote`
 
 
 ## Adding Vim Plugins
@@ -32,6 +32,5 @@ To add a plugin to VIM (via Pathogen):
 ## Known ToDo's
 1. Provide better [startup](#startup) instructions
     * Download iTerm, zsh, BetterTouchTool
-2. Make VM capabilities in `.zshenv` not so ugly
-    * Eg. currently dependent upon `/host-data`, but what if VM doesn't use `/host-data`
+2. 
 
