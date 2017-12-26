@@ -25,6 +25,9 @@ Provide quick and easy startup process for getting preferences onto new machine.
     3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
     4. Init all submodules in this repo: `.dotfiles$ git submodule update --init --recursive`
     5. Update all submodules in this repo: `.dotfiles$ git submodule update --recursive --remote`
+  1. Get `vim-go` up and running
+    1. [Install](https://github.com/fatih/vim-go-tutorial) (unsure if this step is necessary, as it's already in this repo in `./vim/plugged/`)
+    1. `:GoInstallBinaries`
 1. Setup all your other good shit
    1. [Gregory Colbert screensaver](https://gregorycolbert.com/screensaver.php)
    1. BetterTouchTool

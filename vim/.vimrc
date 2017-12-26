@@ -45,6 +45,9 @@ nmap <CR> o<Esc>
 set splitbelow
 set splitright
 
+" Set system clipboard to be default clipboard
+set clipboard=unnamed
+
 """""""""""""""
 " GoLang settings via vim-go package (in pathogen)
 let g:go_highlight_functions = 1
