@@ -5,9 +5,9 @@ Provide quick and easy startup process for getting preferences onto new machine.
 ## Startup
 
 1. Clone this repo into `$HOME` directory
-    * `git clone git@github.com:bittelc/.dotfiles.git ~/`
+    * `git clone git@github.com:bittelc/.dotfiles.git ~/.dotfiles`
 1. To get zsh profile working correctly (dependent on hardcoded ".dotfiles" directory; install zsh; symlink .zshenv;)
-    1. Install zsh
+    1. Install zsh (`brew install zsh`)
     1. `ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv`
     1. Install [Powerline fonts](https://github.com/powerline/fonts)
     1. Modify iTerm profile to use Powerline fonts
@@ -21,13 +21,10 @@ Provide quick and easy startup process for getting preferences onto new machine.
 3. Vim
    1. [Update Vim to 8.0+](https://stackoverflow.com/questions/39861793/how-update-vim-to-8-0-version-in-osx)
    1. Download and install [`vim-pathogen`](https://github.com/tpope/vim-pathogen)
-    2. `ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc`
-    3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
-    4. Init all submodules in this repo: `.dotfiles$ git submodule update --init --recursive`
-    5. Update all submodules in this repo: `.dotfiles$ git submodule update --recursive --remote`
-  1. Get `vim-go` up and running
-    1. [Install](https://github.com/fatih/vim-go-tutorial) (unsure if this step is necessary, as it's already in this repo in `./vim/plugged/`)
-    1. `:GoInstallBinaries`
+   2. `ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc`
+   3. Symlink Pathogen directory: `ln -s ~/.dotfiles/vim ~/.vim`
+   4. Init all submodules in this repo: `.dotfiles$ git submodule update --init --recursive`
+   5. Update all submodules in this repo: `.dotfiles$ git submodule update --recursive --remote`
 1. Setup all your other good shit
    1. [Gregory Colbert screensaver](https://gregorycolbert.com/screensaver.php)
    1. BetterTouchTool

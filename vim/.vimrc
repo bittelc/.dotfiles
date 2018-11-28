@@ -46,18 +46,6 @@ set splitright
 " Set system clipboard to be default clipboard
 set clipboard=unnamed
 
-"""""""""""""""
-" GoLang settings via vim-go package (in pathogen)
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_types = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_build_constraints = 1
-let g:go_fmt_command = "goimports"
-"""""""""""""""
-
 "Enable autocomplete via `neocomplete`
 let g:neocomplete#enable_at_startup = 1
 
@@ -71,3 +59,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Open a file with cursor position at point of last close
 " :help last-position-jump for more details
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
+" GoLangs recommended lines for syntactical sugar for VIM
+filetype off
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
